@@ -19,10 +19,10 @@
 				<string>#E2F6FF</string>
 				<key>invisibles</key>
 				<string>#222222</string>
-				<key>lineHighlight</key>
-				<string>#222222</string>
+				<key>lineHighlight</key><!-- line highlight indicator -->
+				<string>#2f3a46</string>
 				<key>selection</key>
-				<string>#666666</string>
+				<string>#025f7f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,9 +113,9 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#f946fb</string>
+				<string>#ff0082</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS comment</string>
@@ -455,7 +455,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#78d4ff</string>
+				<string>#9af4f6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -468,7 +468,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#78d4ff</string>
+				<string>#9af4f6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -481,7 +481,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#23fdb3</string>
+				<string>#dbd092</string>
 			</dict>
 		</dict>
 		<dict>
@@ -521,12 +521,35 @@
 				<string>#B90690</string>
 			</dict>
 		</dict>
+		<!-- css -->
+		<dict>
+			<key>name</key>
+			<string>CSS selector</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css, entity.other.attribute-name.class.css, entity.name.tag.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00ffab</string>
+			</dict>
+		</dict>
 		<!-- PHP -->
 		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
 			<key>scope</key>
 			<string>source.php.embedded.block.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ec62ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Tags embedded</string>
+			<key>scope</key>
+			<string>source.php.embedded.line.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -542,6 +565,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>php sting quoted</string>
+			<key>scope</key>
+			<string>string.quoted.single.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#33ccff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Matcher</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff008c</string>
 			</dict>
 		</dict>
 	</array>
